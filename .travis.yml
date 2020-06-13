@@ -22,12 +22,6 @@ before_install:
 install:
   - npm install
   - npm install hexo-deployer-git --save
-  - npm install hexo-wordcount --save
-  - npm install hexo-generator-json-content --save
-  - npm install hexo-generator-feed --save
-  - npm install hexo-generator-sitemap --save
-  - npm install hexo-generator-baidu-sitemap --save
-  - npm install hexo-neat --save
 
 # 执行清缓存，生成网页操作
 script:
